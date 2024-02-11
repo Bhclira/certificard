@@ -1,0 +1,43 @@
+O que aprendi até agora:
+
+HTML - Hipertext Markup Language
+
+conceito: uma série de elementos, que você usa para delimitar ou agrupar diferentes partes do conteúdo para que ele apareça ou atue de determinada maneira.
+
+1. inicializar qualquer HTML digitando exclamação (!): onde <meta charset="utf-8"> define o conjunto de caracteres (UTF-8) usado no documento; <title> define o título da página exibido na barra de título do navegador; e <body> contém o conteúdo visível da página, como texto, imagens, links e outros elementos.
+
+2. ligar o HTML ao CSS
+    digitando './' não precisa copiar a path inteira do arquivo
+
+3. principais tags HTML, atribuir classes ou etiquetas e principais propriedades das classes mais comuns;
+
+4. que podemos atribuir estilos 'style' e classes ou subclasses às TAGs já no HTML ou optar por fazê-lo no arquivo .CSS para estilização individual ou em blocos; height; width; box-sizing; border-box; display: flex; align-items; justify-content; border; margin; padding;
+
+5. diferenças do <H1> para os demais; <div>´s; listas ordenadas, numeradas, etc.
+
+6. adicionar botão configurável à pagina e configurá-lo;
+
+7. introduzir links internos, externos e arquivos internos, videos e imagens com a tag <a> e suas propriedades;
+
+8. diferenciar elementos semânticos dos não-semânticos;
+
+9. usar a TAG <src> que especifica o URI de um script externo. Isso permite incluir um arquivo JavaScript em vez de embutí-lo diretamente no documento;
+
+10. no final do arquivo aprendi  a TAG <script src:""> que especifica o URI de um script externo. Isso permite incluir um arquivo JavaScript no documento. exemplo : '<script  src="caminho do arquivo .js"></script>';
+
+CSS - Cascade Style Sheet
+
+conceito: estrutura web-dev responsável por definir como os elementos HTML devem ser exibidos na tela.
+
+1. pesquisar, baixar e inserir fontes de sites especializados para exibição na página;
+
+2. referenciar, estabelecer vínculos, atributos através dos Seletores de Classe no formato '.nome da classe { propriedades de estilo};
+
+3. aprendi que pseudo-elementos (dois pontos) são usados para diferenciar entre seletores de classe (um ponto). que pseudo-elementos são elementos “imaginários” que permitem estilizar partes específicas de outros elementos no formato 'dois pontos duplos (::) seguidos do nome do pseudo-elemento'. exemplo 'p::first-line {font-weight: bold;}';
+
+4. que para estilizar um elemento em CSS sem usar classes, você pode usar seletores de tipo ou seletores de ID no formato 'elemento { atributo: valor;}'. exemplo: 'p {
+font-size: 16px; color: #333;}';
+
+5 e que os seletores de ID são usados para estilizar um elemento específico com base em seu atributo ID; exemplo: '#meu-elemento {background-color: yellow; border: 1px solid #000}';
+
+aprendi também que seletor '::-webkit-scrollbar-thumb' é usado para estilizar a barra arrastável de rolagem em navegadores baseados em WebKit (como Chrome, Edge, Safari e outros)
